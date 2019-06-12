@@ -7,5 +7,5 @@ printf("Even");}
 else if(num%2!=0)
     printf("Odd");
 else{
-printf("invalid");
+printf("Invalid");
 }}
