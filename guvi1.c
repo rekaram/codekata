@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main(){
-int a;
-scanf("%d",&a);
+long long int a;
+scanf("%lld",&a);
 if(a==0)
 printf("Zero");
-else if(a>0){
-printf("Positive");}
-else{
-printf("Negative");}}
+else if(a>0)
+printf("Positive");
+else if(a<0)
+printf("Negative");
+}
